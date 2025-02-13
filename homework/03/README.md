@@ -38,7 +38,7 @@
  
  **Question 3: Write a query to retrieve the PULocationID from the table (not the external table) in BigQuery.**
  **Now write a query to retrieve the PULocationID and DOLocationID on the same table. Why are the estimated number of Bytes different?**
- - SELECT COUNT(DISTINCT PULocationID) AS distinct_pickup_locations FROM `taxi_dataset.regular_yellow_taxitrip`; (This query will process 0 B when run)
+ - SELECT COUNT(DISTINCT PULocationID) AS distinct_pickup_locations FROM `taxi_dataset.regular_yellow_taxitrip`; (This query will process 155.12 MB when run)
  - SELECT COUNT(DISTINCT PULocationID) AS distinct_pickup_locations, COUNT(DISTINCT DOLocationID) AS distinct_dropoff_locations FROM `taxi_dataset.regular_yellow_taxitrip`; (This query will process 310.24 MB when run)
  - Answer: _BigQuery is a columnar database, and it only scans the specific columns requested in the query. Querying two columns (PULocationID, DOLocationID) requires reading more data than querying one column (PULocationID), leading to a higher estimated number of bytes processed._
 
