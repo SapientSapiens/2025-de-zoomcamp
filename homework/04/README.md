@@ -1,1 +1,1 @@
-# homework submitted but solutions visible after scoring! # 
+# homework submitted but solutions to be visible after scoring! # 
