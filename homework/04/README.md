@@ -1,1 +1,1 @@
-# coming soon after homework scoring # 
+# solutions to homework coming soon after scoring! # 
