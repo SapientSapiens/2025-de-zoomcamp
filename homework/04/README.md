@@ -21,3 +21,5 @@
 - Created this analytics dashboard below following instructions from the zoomcamp instructor.
 
 ![alt text](screencapture-lookerstudio-google-reporting-3a325c19-3213-439a-a0ed-d9a80baa3aa4-page-Ed0BF-2025-03-15-20_12_52.png)
+
+### The link to the created dashboard is [this](https://lookerstudio.google.com/reporting/3a325c19-3213-439a-a0ed-d9a80baa3aa4). Kindly set the pickup_datetime in the Data Selector for your specific range.
