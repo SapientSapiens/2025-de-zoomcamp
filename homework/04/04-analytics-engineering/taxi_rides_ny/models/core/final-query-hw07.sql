@@ -1,7 +1,6 @@
 {{
     config(
-        materialized='table',
-        cluster_by = ['year', 'month']
+        materialized='view',
     )
 }}
 
@@ -58,4 +57,4 @@ SELECT
 FROM ranked
 WHERE (cnt = 1 AND trip_rank = 1)
    OR (cnt > 1 AND trip_rank = 2)
-ORDER BY pickup_zone
+ORDER BY pickup_zone 
