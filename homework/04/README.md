@@ -3,10 +3,10 @@
 1. Created Project named dbt-siksha at GCP
 2. Created service account and key and got the credentials json file downloaded to my local machine
 3. Set IAM roles for Storge and BigQuery
-4. Used the web2gcs.py script to Extract the required files from the web (existing as .csv.gz files to Google Storage Bucket as .parquet files)
+4. Used the web2gcs.py script to Extract the required files from the web (existing as .csv.gz files to Google Storage Bucket in the same format)
 5. Created a dataset/schema under dbt-siksha namely my_nyc_tripdata
 6. Loaded the data from the Bucket into BigQuery
-7. Transformed data in BigQuery as per instruction with dbt
+7. Transformed data in BigQuery as per homework instruction with dbt
 
 ### All files added and modified for the homework can be found [here](https://github.com/SapientSapiens/2025-de-zoomcamp/tree/main/homework/04/04-analytics-engineering/taxi_rides_ny) ###
 
